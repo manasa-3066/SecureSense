@@ -1,0 +1,12 @@
+Layer_No,Layer_Name,Layer_Type,Output_Shape,Parameters
+1,dense,Dense,"(None, 256)",17920
+2,batch_normalization,BatchNormalization,"(None, 256)",1024
+3,dropout,Dropout,"(None, 256)",0
+4,dense_1,Dense,"(None, 128)",32896
+5,batch_normalization_1,BatchNormalization,"(None, 128)",512
+6,dropout_1,Dropout,"(None, 128)",0
+7,dense_2,Dense,"(None, 64)",8256
+8,batch_normalization_2,BatchNormalization,"(None, 64)",256
+9,dropout_2,Dropout,"(None, 64)",0
+10,dense_3,Dense,"(None, 32)",2080
+11,dense_4,Dense,"(None, 1)",33

@@ -1,0 +1,131 @@
+# ==============================
+# Python
+# ==============================
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# ==============================
+# Secrets / Environment
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Frontend
+# ==============================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ==============================
+# Logs / Temporary files
+# ==============================
+*.log
+logs/
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Local test CSV files
+# ==============================
+attack_test.csv
+attack_test_50.csv
+test_network_flows.csv
+test_prediction.csv
+
+# ==============================
+# Datasets
+# ==============================
+data/
+dataset/
+notebooks/data/
+
+# ==============================
+# Large / experimental models
+# ==============================
+models/final_random_forest.pkl
+models/random_forest.pkl
+models/random_forest_model.pkl
+models/final_hist_gradient_boosting.pkl
+models/hist_gradient_boosting.pkl
+models/final_decision_tree.pkl
+models/decision_tree.pkl
+models/final_logistic_regression.pkl
+models/logistic_regression.pkl
+models/final_ann.pkl
+models/cnn_lstm_securesense.keras
+models/final_cnn.keras
+models/final_transformer_scaler.pkl
+
+# ==============================
+# Final DNN model artifacts
+# ==============================
+!models/primary_dnn.keras
+!models/primary_dnn_scaler.pkl
+!models/primary_dnn_threshold.pkl
+!models/final_feature_names.pkl
+
+# ==============================
+# IDE
+# ==============================
+.vscode/
+.idea/
+
+# Legacy / experimental ML scripts
+ml/ml/
+
+# Legacy / duplicate notebooks
+notebooks/notebooks/
+
+# Local dataset copies
+notebooks/data/
+
+# Large prediction dumps
+results/research_evidence/final_dnn_test_predictions.csv
+
+# Generated research plots
+results/research_evidence/*.png
+
+# Legacy Random Forest backend
+backend/main_rf.py
+
+# Legacy / experimental model artifacts
+models/cnn_lstm_scaler.pkl
+models/decision_tree_metrics.csv
+models/feature_imputer.pkl
+models/feature_names.pkl
+models/final_ann_scaler.pkl
+models/final_cnn_scaler.pkl
+models/final_cnn_threshold.pkl
+models/final_dnn.keras
+models/final_dnn_scaler.pkl
+models/final_dnn_threshold.pkl
+models/final_logistic_regression_scaler.pkl
+models/logistic_regression_metrics.csv
+models/logistic_regression_scaler.pkl
+
+# Legacy experiment results
+results/cnn_lstm_metrics.csv
+results/critical_test_5.csv
+results/final_ann_metrics.csv
+results/final_cnn_metrics.csv
+results/final_decision_tree_feature_importance.csv
+results/final_decision_tree_metrics.csv
+results/final_dnn_metrics.csv
+results/final_hist_gradient_boosting_metrics.csv
+results/final_logistic_regression_metrics.csv
+results/final_model_comparison.csv
+results/final_random_forest_feature_importance.csv
+results/final_random_forest_metrics.csv
+results/hist_gradient_boosting_metrics.csv
+results/random_forest_feature_importance.csv
+results/random_forest_metrics.csv
