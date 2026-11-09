@@ -1,0 +1,13 @@
+artifact,path,exists,size_MB
+train_parquet,W:\FinalYearProject\SecureSense_Project\notebooks\data\final_group_splits\train.parquet,True,167.459
+test_parquet,W:\FinalYearProject\SecureSense_Project\notebooks\data\final_group_splits\test.parquet,True,75.431
+feature_list,W:\FinalYearProject\SecureSense_Project\models\final_feature_names.pkl,True,0.001
+final_dnn_model,W:\FinalYearProject\SecureSense_Project\models\final_dnn.keras,True,0.772
+final_dnn_scaler,W:\FinalYearProject\SecureSense_Project\models\final_dnn_scaler.pkl,True,0.002
+final_dnn_threshold,W:\FinalYearProject\SecureSense_Project\models\final_dnn_threshold.pkl,True,0.0
+final_dnn_metrics,W:\FinalYearProject\SecureSense_Project\results\final_dnn_metrics.csv,True,0.0
+primary_dnn_model,W:\FinalYearProject\SecureSense_Project\models\primary_dnn.keras,True,0.772
+primary_dnn_scaler,W:\FinalYearProject\SecureSense_Project\models\primary_dnn_scaler.pkl,True,0.002
+primary_dnn_threshold,W:\FinalYearProject\SecureSense_Project\models\primary_dnn_threshold.pkl,True,0.0
+primary_dnn_metrics,W:\FinalYearProject\SecureSense_Project\results\final_primary_dnn\primary_dnn_test_metrics.csv,True,0.001
+primary_dnn_configuration,W:\FinalYearProject\SecureSense_Project\results\final_primary_dnn\primary_dnn_configuration.json,True,0.002

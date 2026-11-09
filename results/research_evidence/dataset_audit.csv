@@ -1,0 +1,3 @@
+split,rows,columns,benign,attack,attack_rate_percent,duplicate_rows
+train,1555942,72,1347731,208211,13.3817,0
+test,675324,72,547313,128011,18.9555,0

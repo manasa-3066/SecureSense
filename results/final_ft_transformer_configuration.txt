@@ -1,0 +1,89 @@
+
+SECURESENSE FT-TRANSFORMER CONFIGURATION
+========================================
+
+Model:
+FT-Transformer
+
+Task:
+Binary network intrusion classification
+
+Input:
+69 continuous numerical features
+
+Categorical features:
+None
+
+Train samples:
+1400347
+
+Validation samples:
+155595
+
+Test samples:
+675324
+
+Architecture:
+Feature Tokenizer
+-> [CLS] token
+-> 3 Transformer blocks
+-> Classification head
+
+Token dimension:
+64
+
+Attention heads:
+4
+
+Attention dropout:
+0.2
+
+FFN dropout:
+0.1
+
+Residual dropout:
+0.0
+
+FFN multiplier:
+1.3333333333333333
+
+Activation functions:
+Transformer FFN: ReGLU
+Classification head: ReLU
+Final layer: Linear logit
+
+Output:
+Single logit
+
+Probability conversion:
+Sigmoid applied to model logits during evaluation
+
+Loss:
+Binary Cross Entropy with Logits
+
+Optimizer:
+AdamW
+
+Learning rate:
+0.0001
+
+Weight decay:
+1e-05
+
+Batch size:
+4096
+
+Epochs:
+15
+
+Validation split:
+0.1
+
+Random state:
+42
+
+Device:
+cpu
+
+Trainable parameters:
+109311

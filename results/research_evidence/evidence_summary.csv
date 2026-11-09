@@ -1,0 +1,19 @@
+Evidence Item,Value
+Final unseen-source Accuracy,0.9057548672933289
+Final unseen-source Precision,0.9519061995366145
+Final unseen-source Recall,0.5295638656052996
+Final unseen-source F1,0.6805336652846516
+Final unseen-source ROC-AUC,0.9014638278195025
+Final unseen-source PR-AUC,0.7670938242517022
+Final unseen-source Balanced Accuracy,0.7616530102300085
+Final unseen-source Threshold,0.4099999999999998
+Final unseen-source TN,543888.0
+Final unseen-source FP,3425.0
+Final unseen-source FN,60221.0
+Final unseen-source TP,67790.0
+Final unseen-source FPR,0.006257845145282498
+Final unseen-source FNR,0.47043613439470044
+Number of model features,69.0
+Final DNN parameter count,62977.0
+Reconstructed best validation threshold,0.41
+Best validation accuracy,0.9931874417558405
